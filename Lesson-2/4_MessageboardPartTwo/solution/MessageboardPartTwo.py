@@ -9,7 +9,7 @@ from urllib.parse import parse_qs
 
 form = '''<!DOCTYPE html>
   <title>Message Board</title>
-  <form method="POST" action="http://localhost:8000/">
+  <form method="POST" action="http://localhost:8000/bears">
     <textarea name="message"></textarea>
     <br>
     <button type="submit">Post it!</button>
